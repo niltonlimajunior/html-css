@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Level</title>
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 40px;
+            width: 400px;
+
+            
+            border-width: 5px;
+            border-style: solid; /* shorthand  border: 5px solid rgb(158, 158, 158)  */
+            border-color: rgb(158, 158, 158);
+
+            border-radius: 100px;
+
+            padding: 3px 3px 3px 3px;
+            
+            margin: auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: black;
+
+            text-align: center;
+        }   
+        a {
+            border: solid;
+            border-style: solid;
+            border-color: red;
+            border-radius: 10px;
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            background-color: rgb(253, 149, 149);
+            padding: 5px 5px 5px 5px;
+        }
+        body {
+            font-family: sans-serif;
+        }
+        a:active {
+            color: aqua;
+            background-color: blue;
+            border: none;
+        }
+        h1:hover {
+            background-color: antiquewhite;
+            border-color: rgb(247, 211, 163);
+            outline: none;
+        }
+        p {
+            text-align: justify;
+            margin-top: 50px;
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>Exemplos de box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>
