@@ -4,6 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&display=swap');
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 :root {
     --fonte-destaque: 'DynaPuff', 'cursive', 'sans-serif';
     --fonte-conteudo: 'Merienda', 'cursive', 'sans-serif';
@@ -13,30 +23,31 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 40px;
 }
 header > h1 {
     font-family: var(--fonte-destaque);
+    font-variant: small-caps;
     font-size: 8vw ;
+    padding-top: 50px;
 }
 header > p {
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
 }
 a {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
 }
 a:hover {
     text-decoration: underline;
 }
-section#q1 {
-    
-}
-section#q2 {
-    background: lightgray url('/desafios/d012/imagens/background001.jpg') center center no-repeat fixed;
-    background-size: cover;
-    height: 600px;
-    max-width: 100%;
+
+
+
+
+footer {
+    background-color: black;
+    text-align: center;
 }
