@@ -44,10 +44,32 @@ a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
+section.normal {
+    background-color: white;
+    color: black;
+}
 
+section.imagem {
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.318);
+    width: 300px;
+    border-radius: 10px;
+}
 
 footer {
     background-color: black;
+    color: white;
     text-align: center;
+    padding: 10px;
 }
