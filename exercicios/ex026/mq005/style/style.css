@@ -22,7 +22,7 @@ header > h1 {
 }
 
 span#burguer {
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(98, 98, 98);
     display: block;
     color: white;
     text-align: center;
@@ -59,7 +59,7 @@ menu > ul > li > a:hover {
 }
 
 main {
-    width: 60vw;
+    width: 90vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
